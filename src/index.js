@@ -15,6 +15,6 @@ exports.avg = function avg (array) {
   if(!array || !array.length) return 0
   let sum = 0
   for(let num of array) sum+=num
-      avg = sum / array.length
-  return avg
+      avr = sum / array.length
+  return avr
 }
